@@ -1,0 +1,186 @@
+body{
+   background-color: rgba(128, 128, 128, 0.504);
+   font-family: sans-serif;
+   margin: 0;
+}
+.head{
+    width: 90vw;
+    display: flex;
+    margin:15px auto;
+    background-color: white;
+    border-radius: 6px;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1px 1px 10px 1px rgb(8, 188, 164);
+}
+
+.head img{
+    width:40px;
+    height: 40px;
+}
+.name{
+    display: flex;
+    padding:0px 10px;
+    align-items: center;
+    cursor: pointer;
+}
+.name div{
+    padding: 5px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+    
+}
+.head button{
+    padding:8px;
+    margin: 15px;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: rgb(12, 188, 188);
+    border-radius: 10px;
+}
+.head >h1{
+    margin: 10px;
+  }
+.head2{
+    display:flex;
+    width:90vw;
+    margin: auto;
+    justify-content: space-between;
+}
+.portfolio{
+    width: 600px;
+    height: 80px;
+    display: flex;
+    margin:5px 3px;
+    background-color: white;
+    border-radius: 6px;
+    align-items: center;
+    box-shadow: 1px 1px 10px 3px rgb(8, 188, 164);
+  }
+.port3{
+    width: 600px;
+    height:400px;
+    display:flex;
+    align-items: center;
+    margin:5px 3px;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 1px 1px 10px 3px rgb(8, 188, 164);
+  }
+.logo{
+    margin: 10px;
+    width:70px;
+}
+
+.invest{
+    width:500px;
+    margin:10px auto;
+    font-size: 25px;
+}
+.invest *{
+    margin:0;
+}
+.invest >h4{
+    display: inline;
+}
+#myChart{
+  height: 500px;
+  width: 1300px;
+  margin:auto;
+}
+#pie{
+    padding: 10px;
+}
+.graph{
+    width: 90vw;
+    height: 500px;
+    margin:20px auto;
+    background-color: white;
+    box-shadow: 1px 1px 10px 3px rgb(8, 188, 164);
+    border-radius: 6px;
+}
+.ht{
+    height: 400px;
+}
+table{
+    width:80vw;
+    margin:20px auto;
+    height: 300px;
+}
+caption{
+    margin: 20px;
+    font-size: 40px;
+    font-weight: bolder;
+}
+th{
+    border:2px solid black;
+    font-size: 22px;
+}
+td{
+    border:2px solid black;
+    text-align: center; 
+    font-size: 22px;
+}
+@media only screen and (max-width:720px){
+    .head{
+        width:600px;
+        height: 80px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .name > div>h1,div,button{
+        font-size: 20px;
+    }
+    .head2{
+        margin: 10px auto;
+        width: 600px;
+        justify-content: space-between;
+    }
+    .portfolio{
+        width: 320px;
+    }
+    .portfolio h1,h4{
+        font-size: 20px;
+    }
+    .port3{
+        width: 300px;
+        height: 200px; 
+    }
+    #myChart{
+        width:600px;
+        height: 100px;
+    }
+    #bar{
+        width:300px;
+        height: 500px;
+    }
+    .graph{
+        height: 300px;
+        width: 600px;
+    }
+    caption{
+        margin: 10px;
+        font-size: 20px;
+    font-weight: lighter;
+    }
+    th{
+        border:1px solid black;
+        font-size: 15px;
+    }
+    td{
+        border:1px solid black;
+        text-align: center; 
+        font-size: 15px;
+    }
+    table{
+        width:500px;
+        margin:10px auto;
+        height: 250px;
+    }
+
+}
